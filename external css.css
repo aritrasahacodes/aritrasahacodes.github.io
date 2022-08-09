@@ -1,0 +1,17 @@
+h1{
+    color:blueviolet;
+    background-color: aquamarine;
+    border :3px solid black;
+    border-radius: 10px ;
+}
+h2{
+    height:200px;
+    width: 200px;
+    background-color: aqua;
+    border-radius: 40%;
+    margin: 30px;
+    padding: 20px;
+}
+body{
+    background-color: burlywood;
+}
