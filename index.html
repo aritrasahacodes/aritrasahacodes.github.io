@@ -1,41 +1,36 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="external.css">
-
-
-        <style>
-            h{
-                color: green;
-            }
-        </style>
-    </head>
-    <body>
-        <h1 style="color:green">Backtracking</h1>
-        <p>Copyright ©2002 by David Matuszek</p>
-        <p>Backtracking is a form of recursion.
-
-            The usual  scenario is that you are faced with a number of options, and you must choose one of these. After you make your choice you will get a new set of options; just what set of options you get depends on what choice you made. This procedure is repeated over and over until you reach a final state. If you made a good sequence of choices, your final state is a goal state; if you didn't, it isn't.
-            
-            Conceptually, you start at the root of a tree; the tree probably has some good leaves and some bad leaves, though it may be that the leaves are all good or all bad. You want to get to a good leaf. At each node, beginning with the root, you choose one of its children to move to, and you keep this up until you get to a leaf.
-            
-            Suppose you get to a bad leaf. You can backtrack to continue the search for a good leaf by revoking your most recent choice, and trying out the next option in that set of options. If you run out of options, revoke the choice that got you here, and try another choice at that node. If you end up at the root with no options left, there are no good leaves to be found.
-            
-            This needs an example </p>
-        <center><img / src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrTDkJ9wYuhCMfNCwWbQ6vqUOZkTncrFpMoQ&usqp=CAU"></center>
-        <ol type="I">
-            <li>Starting at Root, your options are A and B. You choose A</li>
-            <li>At A, your options are C and D. You choose C.</li>
-        </ol>
-        <h2>Hello</h2>
-       <ul type="circle">
-        <li>C is bad. Go back to A.
-            At A, you have already tried C, and it failed. Try D.
-            D is bad. Go back to A.
-            At A, you have no options left to try. Go back to Root.
-            At Root, you have already tried A. Try B.
-            At B, your options are E and F. Try E.
-            E is good. Congratulations!</li>
-       </ul>
-        
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aritra Saha | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cinema'O'graphy</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Collborations</a>
+        <a href="#">Projects</a>
+        <a href="#">Products</a>
+        <a href="#">Achievements</a>
+        <a href="#">Login/Signup</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Products</h2>
+            <img src="" width="50%">
+            <img src="" width="50%">
+        </section>
+        <section>
+            <h2>
+                Youtube Videos
+            </h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/uwhqpKq54MQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+    </main>
+</body>
 </html>
