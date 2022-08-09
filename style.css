@@ -28,11 +28,7 @@ nav a {
     padding: 20px;
     text-align: center;
     float: left;
-<<<<<<< HEAD
-    color: white;
-=======
     color: rgb(255, 255, 255);
->>>>>>> Draft
 }
 
 main {
@@ -45,19 +41,11 @@ h2 {
 }
 
 section:nth-child(even) {
-<<<<<<< HEAD
-    background-color: rgb(241, 241, 241);
-}
-
-section {
-    min-height: 100vh;
-=======
     background-color: rgb(255, 255, 255);
 }
 
 section {
     min-height: 60vh;
->>>>>>> Draft
 }
 
 video {
@@ -65,11 +53,7 @@ video {
 }
 
 iframe {
-<<<<<<< HEAD
-    height: 75vh;
-=======
     height: 40vh;
->>>>>>> Draft
 }
 
 img {
@@ -79,8 +63,6 @@ img {
 section h5 {
     margin: 40px;
 }
-<<<<<<< HEAD
-=======
 .fa {
     padding: 25px;
     font-size: 40px;
@@ -89,7 +71,6 @@ section h5 {
     text-decoration: none;
     border-radius: 50%;
   }
->>>>>>> Draft
 
 footer {
     background-color: #333;
